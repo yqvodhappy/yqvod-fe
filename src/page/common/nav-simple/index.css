@@ -1,0 +1,21 @@
+/*
+* @Author: Dtvikey
+* @Date:   2019-11-01 09:37:13
+* @Last Modified by:   Dtvikey
+* @Last Modified time: 2019-11-01 10:52:45
+*/
+.nav-simple{
+    height: 85px;
+    line-height: 70px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    margin: 10px 15px;
+    display: block;
+    width: 165px;
+    height: 61px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url(../../../..//src/image/icon/sp_logo.jpg) no-repeat;
+}

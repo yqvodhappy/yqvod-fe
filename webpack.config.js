@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 16:21:16
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-10-31 06:11:43
+* @Last Modified time: 2019-11-01 09:31:05
 */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -43,15 +43,15 @@ var config = {
    },
     resolve: {
         alias : {
-            util    : __dirname + '/src/util',
-            page    : __dirname + '/src/page',
-            service : __dirname + '/src/service',
-            image   : __dirname + '/src/image',
-
+            node_modules    : __dirname + '/node_modules',
+            util            : __dirname + '/src/util',
+            page            : __dirname + '/src/page',
+            service         : __dirname + '/src/service',
+            image           : __dirname + '/src/image',
         }
     },
     plugins: [
-        //独立通用模块到js/base.js
+        // 独立通用模块到js/base.js
         new webpack.optimize.CommonsChunkPlugin({
             name : 'common',
             filename : 'js/base.js'

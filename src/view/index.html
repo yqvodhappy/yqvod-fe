@@ -2,17 +2,20 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 16:40:33
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-10-30 18:44:14
+* @Last Modified time: 2019-11-01 10:43:45
 * @E-mail: dtvikey@163.com
 -->
 <!DOCTYPE html>
 <html lang="en">
-<%= require('html-loader!./layout/html-head.html') %>
+<head>
+<%= require('html-loader!./layout/head-common.html') %>
+<title>乐清网-视频</title>
+</head>
 <body>
-    hell webpack-123
-   <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-
-
-   
+    <%= require('html-loader!./layout/nav-simple.html') %>
+    <div>
+        <i class="fa fa-user"></i>
+    </div>
+    <%= require('html-loader!./layout/footer.html') %>
 </body>
 </html>
