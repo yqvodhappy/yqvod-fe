@@ -1,0 +1,122 @@
+<div class="intro-wrap">
+
+       <div class="p-memo-con">
+            <div class="main-title-con">{{name}}</div>
+            <div class="p-source-con">播放次数:{{count}} 来源:{{source}} 发布时间:{{createTime}}</div> 
+            <div class="p-video-con">
+
+                <div id="video" style="position:relative;z-index: 100;width:680px;height:520px;float: left;"><div id="a1"></div></div>
+                <!--
+                上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
+                -->
+                <script type="text/javascript" src="../../src/page/ckplayer/ckplayer.js" charset="utf-8"></script>
+                <script type="text/javascript">
+                  var flashvars={
+                    p:1,
+                    e:1,
+                    hl:'{{filmUrl}}',
+                    ht:'20'
+                    };
+                  var video=['{{filmUrl}}','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
+                  var support=['all'];
+                  CKobject.embedHTML5('a1','ckplayer_a1',680,520,video,flashvars,support);
+                </script>
+
+            </div>
+
+       </div>
+
+       <div class="p-info-con">
+         
+
+           <ul class="p-phb-list">
+               <div class="p-title-phb">视频排行榜</div>
+                <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-pbh-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+
+           </ul>
+        
+
+        
+             <ul class="p-new-list">
+               <div class="p-title-new">最新视频</div>
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li> 
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li> 
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li> 
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+               <li class="p-new-item">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                  <a class="link" href="./detail.html?filmId=4763" target="_blank">2019年乐清市金牌导游员大赛决赛胜利闭幕</a>
+               </li>
+           </ul>  
+       </div>         
+</div> 
+
+<div class="detail-wrap">
+    <div class="detail-tab-con">
+        <ul class="tab-list">
+            <li class="tab-item active">影片详情</li>
+        </ul>
+    </div>
+    <div class="detail-con">
+        {{{detail}}}
+    </div>
+</div>

@@ -1,0 +1,181 @@
+/*
+* @Author: Dtvikey
+* @Date:   2019-11-11 20:38:17
+* @Last Modified by:   Dtvikey
+* @Last Modified time: 2019-11-12 17:45:35
+*/
+/* 面包屑导航条 */
+.crumb{
+    overflow: auto;
+}
+
+.crumb .crumb-con{
+    padding: 10px 0 10px 0;
+    font-size: 13px;
+}
+/*标题和播放区*/
+.intro-wrap{
+    overflow: hidden;
+}
+.intro-wrap .p-memo-con{
+    float: left;
+    width: 720px;
+}
+.intro-wrap .p-memo-con .main-title-con{
+    height: 50px;
+    line-height: 35px;
+    color: #212;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    margin: 0 18px 0 18px;
+}
+.intro-wrap .p-memo-con .p-source-con{
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+.intro-wrap .p-memo-con .p-video-con{
+    width: 680px;
+    height: 520px;
+    background: #565;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+
+/*右侧影片排行榜和最新视频区*/
+.intro-wrap .p-info-con{
+    float: left;
+    width: 340px;
+    margin-left: 20px;
+}
+
+/*影片排行榜*/
+.p-phb-list{
+    border-width:3px 1px 1px 1px;
+    border-color:#96C2F1;
+    border-style:solid;
+    background-color:#FFFFFF;
+    line-height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+
+.p-phb-list .p-title-phb{
+    height: 35px;
+    line-height: 35px;
+    font-weight: normal;
+    font-size: 15px;
+    border-bottom: 1px dashed #198;
+    padding-left: 10px;
+    margin: 0 8px 0 8px;
+}
+
+
+.p-phb-list .p-pbh-item{
+    padding-left: 10px;
+    font-size: 14px;
+    color: #456AA3;
+}
+
+.p-phb-list  .p-pbh-item:hover{
+    background: #F6F6F6;
+}
+.p-phb-list  .p-pbh-item.link{
+    margin-right: 6px;
+    color: #fff;
+}
+.p-phb-list .p-pbh-item.link:hover{
+    color: #c60023;
+}
+
+/* 最新视频 */
+
+.p-new-list{
+    border-width:3px 1px 1px 1px;
+    border-color:#96C2F1;
+    border-style:solid;
+    background-color:#FFFFFF;
+    line-height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+
+.p-new-list .p-title-new{
+    height: 35px;
+    line-height: 35px;
+    font-weight: normal;
+    font-size: 15px;
+    border-bottom: 1px dashed #198;
+    padding-left: 10px;
+    margin: 0 8px 0 8px;
+}
+
+
+.p-new-list .p-new-item{
+    padding-left: 10px;
+    font-size: 14px;
+    color: #456AA3;
+}
+
+.p-new-list  .p-new-item:hover{
+    background: #F6F6F6;
+}
+.p-new-list  .p-new-item.link{
+    margin-right: 6px;
+    color: #fff;
+}
+.p-new-list .p-new-item.link:hover{
+    color: #c60023;
+}
+
+/* 影片详细信息 */
+.detail-wrap{
+    margin-top: 15px;
+}
+.detail-wrap .tab-list{
+    background: #eee;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-bottom: 1px solid #9FC2ED;
+}
+.detail-wrap .tab-list .tab-item{
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.detail-wrap .tab-list .tab-item.active{
+    background: #4C85BC;
+    color: #fff;
+}
+.detail-wrap .detail-con{
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #666;
+}
+.detail-wrap .detail-con img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*错误信息*/
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    color: #f60;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
+}

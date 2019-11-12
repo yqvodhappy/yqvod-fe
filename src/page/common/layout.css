@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-01 08:17:08
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-04 20:40:41
+* @Last Modified time: 2019-11-12 17:50:33
 */
 /* css reset */
 *{
@@ -29,7 +29,7 @@ input[type='checkbox']{
 /* 定宽布局 */
 .w{
     width: 1080px;
-    marigin: 0 auto;
+    margin: 0 auto;
     position: relative;
     overflow: hidden;
 }
@@ -77,8 +77,8 @@ input[type='checkbox']{
 .loading{
     margin: 10px auto;
     display: block;
-    width: 260px;
-    height: 260px;
+    width: 65px;
+    height: 65px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background: url(../../image/icon/loading.gif) no-repeat;
