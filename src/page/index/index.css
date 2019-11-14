@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 21:46:01
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-09 12:19:05
+* @Last Modified time: 2019-11-14 15:15:00
 */
 /* keywords-list */
 .keywords-list{
@@ -135,11 +135,13 @@
     color: #D80D10;
     border-bottom: 1px solid #D80D10;
 }
-.floor-wrap .floor-list{
+
+/*F1*/
+.floor-wrap .floor-list1{
     margin-right: -20px;
     overflow: hidden;
 }
-.floor-wrap .floor-list .floor-item{
+.floor-wrap .floor-list1 .floor-item{
     position: relative;
     width: 200px;
     height: 220px;
@@ -148,17 +150,17 @@
     cursor: pointer;
     background: #fff;
 }
-.floor-wrap .floor-list .floor-item:hover{
+.floor-wrap .floor-list1 .floor-item:hover{
     box-shadow: 1px 1px 7px #ddd;
 }
-.floor-wrap .floor-list .floor-item .floor-text{
+.floor-wrap .floor-list1 .floor-item .floor-text{
     position: absolute;
     top: 12px;
     left: 20px;
     font-size: 16px;
     color: #555;
 }
-.floor-wrap .floor-list .floor-item .floor-img{
+.floor-wrap .floor-list1 .floor-item .floor-img{
     position: absolute;
     right: 15px;
     bottom: 10px;
@@ -166,3 +168,403 @@
     height: 75%;
     border: none;
 }
+
+/*F2*/
+.floor-wrap .floor-list2{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list2 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list2 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list2 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list2 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F3*/
+.floor-wrap .floor-list3{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list3 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list3 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list3 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list3 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+
+/*F4*/
+.floor-wrap .floor-list4{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list4 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list4 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list4 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list4 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F5*/
+.floor-wrap .floor-list5{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list5 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list5 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list5 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list5 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F6*/
+.floor-wrap .floor-list6{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list6 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list6 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list6 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list6 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F7*/
+.floor-wrap .floor-list7{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list7 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list7 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list7 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list7 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F8*/
+.floor-wrap .floor-list8{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list8 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list8 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list8 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list8 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F9*/
+.floor-wrap .floor-list9{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list9 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list9 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list9 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list9 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F10*/
+.floor-wrap .floor-list10{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list10 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list10 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list10 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list10 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F11*/
+.floor-wrap .floor-list11{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list11 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list11 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list11 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list11 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F12*/
+.floor-wrap .floor-list12{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list12 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list12 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list12 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list12 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+/*F13*/
+.floor-wrap .floor-list13{
+    margin-right: -20px;
+    overflow: hidden;
+}
+.floor-wrap .floor-list13 .floor-item{
+    position: relative;
+    width: 200px;
+    height: 220px;
+    margin: 15px 20px 15px 0;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+}
+.floor-wrap .floor-list13 .floor-item:hover{
+    box-shadow: 1px 1px 7px #ddd;
+}
+.floor-wrap .floor-list13 .floor-item .floor-text{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-list13 .floor-item .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border: none;
+}
+
+
+
