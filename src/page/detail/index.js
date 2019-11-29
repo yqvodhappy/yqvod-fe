@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-13 17:37:52
+* @Last Modified time: 2019-11-29 21:36:03
 */
 
 'use strict';
@@ -106,7 +106,7 @@ var page = {
             ? (delete listParam.keyword) : (delete listParam.categoryId);
         // 请求接口
         _film.getFilmList(listParam, function(res){
-             _this.phbFilter(res);
+             _this.wordFilter(res);
             listHtml = _vv.renderHtml(templatePhb, {
                 list :  res.list
             });
@@ -127,7 +127,7 @@ var page = {
             ? (delete listParam.keyword) : (delete listParam.categoryId);
         // 请求接口
         _film.getFilmList(listParam, function(res){
-             _this.newFilter(res);
+             _this.wordFilter(res);
             listHtml = _vv.renderHtml(templateNew, {
                 list :  res.list
             });
@@ -136,19 +136,8 @@ var page = {
             _vv.errorTips(errMsg);
         });
     },
-    // 排行榜控制字数
-    phbFilter : function(data){
-        
-            for (var i = 0, length = data.list.length; i < length; i++) {
-                if(data.list[i].name.length > 20){
-                   data.list[i].name = data.list[i].name.substring(0,20)+'...';
-                }
-            }
-            
-    },
-
-    // 最新榜控制字数
-    newFilter : function(data){
+    // 控制字数
+    wordFilter : function(data){
         
             for (var i = 0, length = data.list.length; i < length; i++) {
                 if(data.list[i].name.length > 20){
@@ -157,7 +146,7 @@ var page = {
             }
             
     }
-    
+
 };
 $(function(){
     page.init();
