@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 16:21:16
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-11 21:08:06
+* @Last Modified time: 2019-11-28 21:18:38
 */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -15,6 +15,7 @@ var getHtmlConfig = function(name,title){
     return {
         template : './src/view/' + name + '.html',
         filename : 'view/' + name + '.html',
+        favicon  : './favicon.ico',
         title    : title,
         inject   : true,
         hash     : true,
@@ -28,12 +29,11 @@ var config = {
         'index'  : ['./src/page/index/index.js'],
         'list'   : ['./src/page/list/index.js'],
         'detail'   : ['./src/page/detail/index.js'],
-
     },
     output: {
-        path : './dist',
-        publicPath : '/dist',
-        filename : 'js/[name].js'
+        path        : __dirname + '/dist/',
+        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.yqrb.com.cn/yqvod-fe/dist/',
+        filename    : 'js/[name].js'
     },
     externals:{
         'jquery' : 'window.jQuery'
