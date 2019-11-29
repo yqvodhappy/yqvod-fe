@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-29 21:36:03
+* @Last Modified time: 2019-11-30 06:12:53
 */
 
 'use strict';
@@ -50,7 +50,7 @@ var page = {
     bindEvent : function(){
         var _this = this;
     },
-    // 加载影片详情
+    // 加载影片详情介绍
     loadDetailPart : function(){
         var _this       = this,
             html        = '',
