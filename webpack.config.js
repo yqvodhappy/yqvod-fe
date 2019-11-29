@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 16:21:16
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-14 20:04:03
+* @Last Modified time: 2019-11-28 21:18:38
 */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -29,7 +29,6 @@ var config = {
         'index'  : ['./src/page/index/index.js'],
         'list'   : ['./src/page/list/index.js'],
         'detail'   : ['./src/page/detail/index.js'],
-
     },
     output: {
         path        : __dirname + '/dist/',
