@@ -14,7 +14,7 @@
                     hl:'{filmUrl}',
                     ht:'20'
                     };
-                  var video=['{{imageHost}}{{filmUrl}}','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
+                  var video=['{{filmUrl}}','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
                   var support=['all'];
                   CKobject.embedHTML5('a1','ckplayer_a1',680,520,video,flashvars,support);
            </script>
