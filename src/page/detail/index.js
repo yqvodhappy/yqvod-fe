@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 06:12:53
+* @Last Modified time: 2019-11-30 06:58:27
 */
 
 'use strict';
@@ -92,7 +92,7 @@ var page = {
     },
     //数据匹配
     filter : function(data){
-        data.filmUrl = 'http://www.yqrb.com.cn/Video/'+data.filmUrl;
+        data.filmUrl = 'http://img.yqrb.com.cn/Video/'+data.filmUrl;
     },
     // 加载排行榜list数据
     loadPhbList : function(){
