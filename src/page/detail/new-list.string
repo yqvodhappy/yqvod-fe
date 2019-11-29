@@ -1,0 +1,10 @@
+<div class="p-title-new">最新视频</div>
+{{#list}}
+<li class="p-new-item">
+<i class="fa fa-bars" aria-hidden="true"></i>
+<a class="link" href="./detail.html?filmId={{id}}" target="_blank">{{name}}</a>
+</li>
+{{/list}}
+{{^list}}
+<p class="err-tip">很抱歉，实在找不到您要的影片。</p>
+{{/list}}

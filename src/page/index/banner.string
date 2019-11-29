@@ -1,0 +1,20 @@
+<div class="banner">
+    <ul>
+        {{#list}}
+        <li>
+            <a href="./detail.html?filmId={{id}}" target="_blank">
+                <img class="banner-img" src="{{imageHost}}{{mainImage}}" />
+            </a>
+        </li>
+        {{/list}}
+        {{^list}}
+        <p class="err-tip">很抱歉，实在找不到您要的影片。</p>
+        {{/list}}
+    </ul>
+    <div class="banner-arrow prev">
+        <i class="fa fa-angle-left"></i>
+    </div>
+    <div class="banner-arrow next">
+        <i class="fa fa-angle-right"></i>
+    </div>
+</div>

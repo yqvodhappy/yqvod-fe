@@ -1,0 +1,56 @@
+/*
+* @Author: Dtvikey
+* @Date:   2019-11-04 20:49:44
+* @Last Modified by:   Dtvikey
+* @Last Modified time: 2019-11-12 17:50:49
+*/
+/* 通用头部导航 */
+.header .logo{
+    position: absolute;
+    left: 50px;
+    top: 28px;
+    display: block;
+    margin: 10px 15px;
+    display: block;
+    width: 165px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url(../../../../src/image/icon/sp_logo.jpg) no-repeat;
+
+}
+
+.header .search-con{
+    padding: 40px 0 30px 250px;
+}
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #c60023;
+    outline: none;
+}
+.header .search-con .search-btn{
+    position: absolute;
+    height: 44px;
+    width: 80px;
+}
+
+.header .links{
+    text-align: center;
+    color: #8bb6d5;
+    line-height: 40px;
+    background: -webkit-linear-gradient(#3886c1,#2972ad);
+    background: -o-linear-gradient(#3886c1,#2972ad);
+    background: -moz-linear-gradient(#3886c1,#2972ad);
+    background: -mos-linear-gradient(#3886c1,#2972ad);
+    background: linear-gradient(#3886c1,#2972ad);
+
+}
+.header .links .link{
+    padding:  0 10px;
+    color: #fff;
+    font-size: 16px;
+}

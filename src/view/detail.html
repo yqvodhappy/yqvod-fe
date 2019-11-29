@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/head-common.html') %>
+        <title><%= htmlWebpackPlugin.options.title%>-乐清网视频</title>
+    </head>
+    <body>
+        <%= require('html-loader!./layout/header.html')  %>
+        <div class="crumb">
+            <div class="w">
+                <div class="crumb-con">
+                    <a class="link" href="./index.html">乐清网视频</a>
+                    <span>></span>
+                    <span class="link-text"><%= htmlWebpackPlugin.options.title%></span>
+                </div>
+            </div>
+        </div>
+        <div class="page-wrap w">
+
+             <div class="intro-wrap">
+
+                <div class="p-memo-con">
+
+
+            
+
+               </div>
+
+       <div class="p-info-con">
+         
+           <ul class="p-phb-list">
+               
+           </ul>
+        
+
+        
+             <ul class="p-new-list">
+               
+               
+           </ul> 
+
+       </div>  
+
+</div> 
+
+<div class="detail-wrap">
+    
+</div>
+        </div>
+        <%= require('html-loader!./layout/footer.html')  %>
+    </body>
+</html>

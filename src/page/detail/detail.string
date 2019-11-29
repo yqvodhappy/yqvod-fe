@@ -1,0 +1,8 @@
+<div class="detail-tab-con">
+<ul class="tab-list">
+<li class="tab-item active">影片详情</li>
+</ul>
+</div>
+<div class="detail-con">
+{{{detail}}}
+</div>
