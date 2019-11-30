@@ -21,7 +21,7 @@
                   CKobject.embedHTML5('a1','ckplayer_a1',680,520,video,flashvars,support);
            </script>
           -->
-
+        <!--
           <script type="text/javascript" src="http://s.yqrb.com.cn/yqvod-fe/dist/ckplayer/ckplayer/ckplayer.js"></script>
           <div id="video" style="width:680px;height:520px;"></div>
           <script type="text/javascript">
@@ -33,6 +33,9 @@
             };
             var player=new ckplayer(videoObject);
           </script>
+        -->
+          <embed src="http://s.yqrb.com.cn/yqvod-fe/dist/ckplayer/ckplayer/ckplayer.swf" flashvars="video=http://img.yqrb.com.cn/Video/2019/04/2019.04.10jiujia.mp4"  quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
+
 
 
 </div>
