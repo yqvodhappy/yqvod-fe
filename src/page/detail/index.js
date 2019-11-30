@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 20:59:09
+* @Last Modified time: 2019-11-30 21:02:50
 */
 
 'use strict';
@@ -161,7 +161,7 @@ var page = {
 
             }, function(errMsg){
 
-               _vv.errorTips(errMsg);
+              // _vv.errorTips(errMsg);
 
         });
     }
