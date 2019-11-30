@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 16:53:33
+* @Last Modified time: 2019-11-30 17:00:07
 */
 
 'use strict';
@@ -70,7 +70,7 @@ var page = {
                $pageWrap.html('<p class="err-tip">此影片太淘气，找不到了</p>');
         });
     },
-    // 加载影片详细数据(播放部分)
+    // 加载影片详细数据
     loadDetail : function(){
         var _this       = this,
             html        = '',

@@ -34,8 +34,8 @@
             var player=new ckplayer(videoObject);
           </script>
         -->
-          
-
+    <div id="video" style="width: 600px; height: 400px;"></div>
+    <script type="text/javascript" src="http://s.yqrb.com.cn/yqvod-fe/dist/ckplayer/ckplayer/ckplayer.js"></script>
     <script type="text/javascript">
       var videoObject = {
         container: '#video', //容器的ID或className
