@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 20:32:53
+* @Last Modified time: 2019-11-30 20:34:20
 */
 
 'use strict';
@@ -157,7 +157,7 @@ var page = {
         // 增加点击次数
         _film.addCount(this.data.filmId, function(res){
             
-                 _vv.successTips(res);
+                // _vv.successTips(res);
 
             }, function(errMsg){
 
