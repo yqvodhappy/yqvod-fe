@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-04 20:49:44
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 17:21:17
+* @Last Modified time: 2019-11-30 17:23:48
 */
 /* 通用头部导航 */
 .header .logo{
@@ -36,6 +36,7 @@
     position: absolute;
     height: 44px;
     width: 80px;
+    background: #4B84BB;
 }
 
 .header .links{
