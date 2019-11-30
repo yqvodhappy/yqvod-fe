@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 17:00:07
+* @Last Modified time: 2019-11-30 17:06:19
 */
 
 'use strict';
@@ -32,6 +32,7 @@ var page = {
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 9
         }
+        
     },
     init : function(){
         this.onLoad();
