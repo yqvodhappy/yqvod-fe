@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 11:33:19
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-14 15:14:36
+* @Last Modified time: 2019-11-30 20:55:56
 */
 
 'use strict';
@@ -20,28 +20,28 @@ var page = {
         listParam : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '1',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         },
         listParam2 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '10',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         },
         listParam3 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '6',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         },
         listParam4 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '2',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -49,7 +49,7 @@ var page = {
         listParam5 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '3',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -57,7 +57,7 @@ var page = {
         listParam6 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '5',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -65,7 +65,7 @@ var page = {
         listParam7 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '12',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -73,7 +73,7 @@ var page = {
         listParam8 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '13',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -81,7 +81,7 @@ var page = {
         listParam9 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '14',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -89,7 +89,7 @@ var page = {
         listParam10 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '11',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -97,7 +97,7 @@ var page = {
         listParam11 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '4',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
@@ -105,14 +105,14 @@ var page = {
         listParam12 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '7',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         },
         listParam13 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '15',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }

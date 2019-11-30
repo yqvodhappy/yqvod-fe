@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 20:48:19
+* @Last Modified time: 2019-11-30 20:56:53
 */
 
 'use strict';
@@ -28,7 +28,7 @@ var page = {
         listParam2 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '2',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count-asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 9
         }
