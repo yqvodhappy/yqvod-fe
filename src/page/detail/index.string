@@ -1,9 +1,9 @@
 <div class="main-title-con">{{name}}</div>
             <div class="p-source-con">播放次数:{{count}} 来源:{{source}} 发布时间:{{createTime}}</div> 
             <div class="p-video-con">
-
+<!--
                 <div id="video" style="position:relative;z-index: 100;width:680px;height:520px;float: left;"><div id="a1"></div></div>
-                <!--
+                
                 上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
                 
                 <script type="text/javascript" src="http://s.yqrb.com.cn/yqvod-fe/dist/ckplayer/ckplayer.js" charset="utf-8"></script>
