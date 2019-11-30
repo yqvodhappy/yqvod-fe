@@ -22,7 +22,7 @@
            </script>
           -->
 
-          <script type="text/javascript" src="ckplayer/ckplayer.js"></script>
+          <script type="text/javascript" src="http://s.yqrb.com.cn/yqvod-fe/dist/ckplayer/ckplayer.js"></script>
           <div id="video" style="width:680px;height:520px;"></div>
           <script type="text/javascript">
             var videoObject = {
