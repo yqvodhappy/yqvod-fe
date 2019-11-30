@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:32:43
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-29 21:37:05
+* @Last Modified time: 2019-11-30 20:16:32
 */
 
 'use strict';
@@ -23,6 +23,17 @@ var _film = {
     getFilmDetail : function(filmId, resolve, reject){
         _vv.request({
             url     : _vv.getServerUrl('/film/detail.do'),
+            data    : {
+                filmId : filmId
+            },
+            success : resolve,
+            error   : reject
+        });
+    }
+    // 增加点击次数
+    addCount : function(filmId, resolve, reject){
+        _vv.request({
+            url     : _vv.getServerUrl('/film/take_count.do'),
             data    : {
                 filmId : filmId
             },

@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:21:25
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 19:11:02
+* @Last Modified time: 2019-11-30 20:07:08
 */
 
 'use strict';
@@ -49,7 +49,7 @@ var page = {
                     _this.data.listParam.orderBy = 'default';
                 }
             }
-            // 点击价格排序
+            // 点击次数排序
             else if($this.data('type') === 'count'){
                 // active class 的处理
                 $this.addClass('active').siblings('.count-item')

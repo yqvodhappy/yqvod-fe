@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 17:06:19
+* @Last Modified time: 2019-11-30 20:17:28
 */
 
 'use strict';
@@ -47,6 +47,9 @@ var page = {
         this.loadDetailPart();  
         this.loadPhbList();  
         this.loadNewList();
+
+        // 增加点击次数
+        this.addCount();
     },
     bindEvent : function(){
         var _this = this;
@@ -146,7 +149,23 @@ var page = {
                 }
             }
             
+    },
+
+    // 加载影片详情介绍
+    addCount : function(){
+        var _this       = this,
+        // 增加点击次数
+        _film.addCount(this.data.filmId, function(res){
+            
+                 _vv.successTips(this.res.data);
+
+            }, function(errMsg){
+
+               _vv.errorTips(errMsg);
+
+        });
     }
+
 
 };
 $(function(){
