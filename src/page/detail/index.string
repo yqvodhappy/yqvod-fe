@@ -5,7 +5,7 @@
                 <div id="video" style="position:relative;z-index: 100;width:680px;height:520px;float: left;"><div id="a1"></div></div>
                 <!--
                 上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
-                -->
+                
                 <script type="text/javascript" src="http://s.yqrb.com.cn/yqvod-fe/dist/ckplayer/ckplayer.js" charset="utf-8"></script>
                 <script type="text/javascript">
                   var flashvars={
@@ -20,4 +20,19 @@
                   var support=['all'];
                   CKobject.embedHTML5('a1','ckplayer_a1',680,520,video,flashvars,support);
            </script>
+          -->
+
+          <script type="text/javascript" src="ckplayer/ckplayer.js"></script>
+          <div id="video" style="width:680px;height:520px;"></div>
+          <script type="text/javascript">
+            var videoObject = {
+              container: '#video',//“#”代表容器的ID，“.”或“”代表容器的class
+              variable: 'player',//该属性必需设置，值等于下面的new chplayer()的对象
+              flashplayer:false,//如果强制使用flashplayer则设置成true
+              video:'http://img.yqrb.com.cn/Video/2019/04/2019.04.10jiujia.mp4'//视频地址
+            };
+            var player=new ckplayer(videoObject);
+          </script>
+
+
 </div>
