@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 20:56:53
+* @Last Modified time: 2019-11-30 20:59:09
 */
 
 'use strict';
@@ -20,14 +20,14 @@ var page = {
         filmId : _vv.getUrlParam('filmId') || '',
         listParam : {
             keyword         : _vv.getUrlParam('keyword')    || '',
-            categoryId      : _vv.getUrlParam('categoryId') || '3',
+            categoryId      : _vv.getUrlParam('categoryId') || '1',
             orderBy         : _vv.getUrlParam('orderBy')    || 'count-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 8
         },
         listParam2 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
-            categoryId      : _vv.getUrlParam('categoryId') || '2',
+            categoryId      : _vv.getUrlParam('categoryId') || '1',
             orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 9
