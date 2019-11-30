@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 20:34:20
+* @Last Modified time: 2019-11-30 20:48:19
 */
 
 'use strict';
@@ -21,14 +21,14 @@ var page = {
         listParam : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '3',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_desc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'count-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 8
         },
         listParam2 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '2',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'count_asc',
+            orderBy         : _vv.getUrlParam('orderBy')    || 'count-asc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 9
         }
