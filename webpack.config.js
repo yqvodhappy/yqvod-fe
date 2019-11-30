@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 16:21:16
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 07:28:56
+* @Last Modified time: 2019-11-30 08:02:43
 */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -73,6 +73,7 @@ var config = {
         new HtmlWebpackPlugin(getHtmlConfig('index','首页')),
         new HtmlWebpackPlugin(getHtmlConfig('list','影片列表页')),
         new HtmlWebpackPlugin(getHtmlConfig('detail','影片详情页')),
+
     ]
 };
 
