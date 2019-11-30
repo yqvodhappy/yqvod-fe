@@ -9,6 +9,9 @@
         <div class="p-count-con">
             <span class="p-count">￥{{count}}</span>
         </div> -->
+        <div class="p-count-con">
+            <span class="p-count"></span>
+        </div>
         <div class="p-name-con">
             <a class="p-name" href="./detail.html?filmId={{id}}" target="_blank">{{name}}</a>
         </div>
