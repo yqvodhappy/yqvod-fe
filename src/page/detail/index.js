@@ -2,12 +2,13 @@
 * @Author: Dtvikey
 * @Date:   2019-11-11 20:38:27
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 06:58:27
+* @Last Modified time: 2019-11-30 15:12:14
 */
 
 'use strict';
 require('./index.css');
 require('page/common/header/index.js');
+require('page/ckplayer/ckplayer.js');
 var _vv             = require('util/vv.js');
 var _film           = require('service/film-service.js');
 var templateIndex   = require('./index.string');
