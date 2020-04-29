@@ -8,18 +8,18 @@
 上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
 -->
                 
-                <script type="text/javascript">
-                  var flashvars={
-                    p:1,
-                    e:1,
-                    hl:'{{filmUrl}}',
-                    ht:'20'
-                    };
+          <script type="text/javascript">
+            var flashvars={
+              p:1,
+              e:1,
+              hl:'{{filmUrl}}',
+              ht:'20'
+              };
 
-                  var video=['{{filmUrl}}','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
+            var video=['{{filmUrl}}','http://www.ckplayer.com/webm/0.webm->video/webm','http://www.ckplayer.com/webm/0.ogv->video/ogg'];
 
-                  var support=['all'];
-                  CKobject.embedHTML5('a1','ckplayer_a1',680,520,video,flashvars,support);
+            var support=['all'];
+            CKobject.embedHTML5('a1','ckplayer_a1',680,520,video,flashvars,support);
            </script>
          
         <!--
