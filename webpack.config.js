@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 16:21:16
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 08:02:43
+* @Last Modified time: 2020-05-06 09:59:17
 */
 var webpack           = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -32,7 +32,7 @@ var config = {
     },
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.yqrb.com.cn/yqvod-fe/dist/',
+        publicPath  : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.yqrb.com.cn:8080/yqvod-fe/dist/',
         filename    : 'js/[name].js'
     },
     externals:{

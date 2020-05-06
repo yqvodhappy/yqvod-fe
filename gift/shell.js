@@ -13,8 +13,8 @@ DEST_PATH=/film/front/
 if [ ! -n "$1" ];
     then
     echo -e "Please input a project name! You can input as follows:"
-    echo -e "./fe-deploy2.sh yqvod-fe"
-    echo -e "./fe-deploy2.sh admin-v2-fe"
+    echo -e "./fe-deploy.sh yqvod-fe"
+    echo -e "./fe-deploy.sh admin-v2-fe"
     exit
 fi
 
