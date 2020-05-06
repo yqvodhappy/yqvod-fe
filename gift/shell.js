@@ -7,7 +7,7 @@
 
 
 GIT_HOME=/developer/git-repository/
-DEST_PATH=/film/front/
+DEST_PATH=/film/frontend/
 
 # cd dir
 if [ ! -n "$1" ];
@@ -53,6 +53,7 @@ npm run dist
 
 if [ -d "./dist" ];
     then
+   
     # backup dest
     echo -e "==========dest backup========="
     sudo mv $DEST_PATH$1/dist $DEST_PATH$1/dist.bak
