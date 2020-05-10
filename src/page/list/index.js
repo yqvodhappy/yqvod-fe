@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:21:25
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-10 09:52:46
+* @Last Modified time: 2020-05-10 10:00:44
 */
 
 'use strict';
@@ -96,17 +96,17 @@ var page = {
         });
     },
     // 加载分页信息
-    loadPagination : function(pageInfo){
-        var _this = this;
-        this.pagination ? '' : (this.pagination = new Pagination());
-        this.pagination.render($.extend({}, pageInfo, {
-            container : $('.pagination'),
-            onSelectPage : function(pageNum){
-                _this.data.listParam.pageNum = pageNum;
-                _this.loadList();
-            }
-        }));
-    }
+    // loadPagination : function(pageInfo){
+    //     var _this = this;
+    //     this.pagination ? '' : (this.pagination = new Pagination());
+    //     this.pagination.render($.extend({}, pageInfo, {
+    //         container : $('.pagination'),
+    //         onSelectPage : function(pageNum){
+    //             _this.data.listParam.pageNum = pageNum;
+    //             _this.loadList();
+    //         }
+    //     }));
+    // }
 };
 $(function(){
     page.init();
