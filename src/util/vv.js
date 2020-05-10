@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-30 22:01:15
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-06 17:28:40
+* @Last Modified time: 2020-05-08 09:13:11
 */
 
 'use strict';
@@ -26,7 +26,7 @@ var _vv = {
                     typeof param.success === 'function' && param.success(res.data,res.msg);
                 }
                 // 没有登录状态，需要强制登录
-                else if(10 === res.status){
+                else if(500 === res.status){
                     _this.doLogin();
                 }
                 // 请求数据错误
