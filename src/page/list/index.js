@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:21:25
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-10 10:24:27
+* @Last Modified time: 2020-05-10 10:33:48
 */
 
 'use strict';
@@ -83,14 +83,14 @@ var page = {
                 list :  res.list
             });
             $pListCon.html(listHtml);
-            _this.loadPagination({
-                hasPreviousPage : res.hasPreviousPage,
-                prePage         : res.prePage,
-                hasNextPage     : res.hasNextPage,
-                nextPage        : res.nextPage,
-                pageNum         : res.pageNum,
-                pages           : res.pages
-            });
+            // _this.loadPagination({
+            //     hasPreviousPage : res.hasPreviousPage,
+            //     prePage         : res.prePage,
+            //     hasNextPage     : res.hasNextPage,
+            //     nextPage        : res.nextPage,
+            //     pageNum         : res.pageNum,
+            //     pages           : res.pages
+            // });
         }, function(errMsg){
             _vv.errorTips(errMsg);
         });
