@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-10-29 11:33:19
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2019-11-30 20:55:56
+* @Last Modified time: 2020-05-10 17:45:38
 */
 
 'use strict';
@@ -94,22 +94,22 @@ var page = {
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         }
         ,
+        // listParam11 : {
+        //     keyword         : _vv.getUrlParam('keyword')    || '',
+        //     categoryId      : _vv.getUrlParam('categoryId') || '4',
+        //     orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
+        //     pageNum         : _vv.getUrlParam('pageNum')    || 1,
+        //     pageSize        : _vv.getUrlParam('pageSize')   || 5
+        // }
+        //,
         listParam11 : {
-            keyword         : _vv.getUrlParam('keyword')    || '',
-            categoryId      : _vv.getUrlParam('categoryId') || '4',
-            orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
-            pageNum         : _vv.getUrlParam('pageNum')    || 1,
-            pageSize        : _vv.getUrlParam('pageSize')   || 5
-        }
-        ,
-        listParam12 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '7',
             orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
             pageNum         : _vv.getUrlParam('pageNum')    || 1,
             pageSize        : _vv.getUrlParam('pageSize')   || 5
         },
-        listParam13 : {
+        listParam12 : {
             keyword         : _vv.getUrlParam('keyword')    || '',
             categoryId      : _vv.getUrlParam('categoryId') || '15',
             orderBy         : _vv.getUrlParam('orderBy')    || 'create_time-desc',
@@ -137,7 +137,7 @@ var page = {
         this.loadF10List();
         this.loadF11List();
         this.loadF12List();
-        this.loadF13List();
+        //this.loadF13List();
     },
     bindEvent : function(){
         var _this = this;
@@ -436,26 +436,26 @@ var page = {
         });
     },
      // 加载F13 list数据
-    loadF13List : function(){
-        var _this       = this,
-            listHtml    = '',
-            listParam   = this.data.listParam13,
-            $pListCon   = $('.floor-list13');
-        $pListCon.html('<div class="loading"></div>');
-        // 删除参数中不必要的字段
-        listParam.categoryId
-            ? (delete listParam.keyword) : (delete listParam.categoryId);
-        // 请求接口
-        _film.getFilmList(listParam, function(res){
-             _this.FloorFilter(res);
-            listHtml = _vv.renderHtml(templateFloor, {
-                list :  res.list
-            });
-            $pListCon.html(listHtml);
-        }, function(errMsg){
-            _vv.errorTips(errMsg);
-        });
-    },
+    // loadF13List : function(){
+    //     var _this       = this,
+    //         listHtml    = '',
+    //         listParam   = this.data.listParam13,
+    //         $pListCon   = $('.floor-list13');
+    //     $pListCon.html('<div class="loading"></div>');
+    //     // 删除参数中不必要的字段
+    //     listParam.categoryId
+    //         ? (delete listParam.keyword) : (delete listParam.categoryId);
+    //     // 请求接口
+    //     _film.getFilmList(listParam, function(res){
+    //          _this.FloorFilter(res);
+    //         listHtml = _vv.renderHtml(templateFloor, {
+    //             list :  res.list
+    //         });
+    //         $pListCon.html(listHtml);
+    //     }, function(errMsg){
+    //         _vv.errorTips(errMsg);
+    //     });
+    // },
 
     // 排行榜控制字数
     FloorFilter : function(data){
