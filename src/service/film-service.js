@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:32:43
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-10 10:53:06
+* @Last Modified time: 2020-05-10 11:02:10
 */
 
 'use strict';
@@ -13,7 +13,7 @@ var _film = {
     // 获取影片列表
     getFilmList : function(listParam, resolve, reject){
         _vv.request({
-            url     : _vv.getServerUrl('/film/list.do'),
+            url     : _vv.getServerUrl('/index/flist'),
             data    : listParam,
             success : resolve,
             error   : reject
