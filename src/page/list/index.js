@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:21:25
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-10 10:12:03
+* @Last Modified time: 2020-05-10 10:24:27
 */
 
 'use strict';
@@ -83,30 +83,30 @@ var page = {
                 list :  res.list
             });
             $pListCon.html(listHtml);
-            // _this.loadPagination({
-            //     hasPreviousPage : res.hasPreviousPage,
-            //     prePage         : res.prePage,
-            //     hasNextPage     : res.hasNextPage,
-            //     nextPage        : res.nextPage,
-            //     pageNum         : res.pageNum,
-            //     pages           : res.pages
-            // });
+            _this.loadPagination({
+                hasPreviousPage : res.hasPreviousPage,
+                prePage         : res.prePage,
+                hasNextPage     : res.hasNextPage,
+                nextPage        : res.nextPage,
+                pageNum         : res.pageNum,
+                pages           : res.pages
+            });
         }, function(errMsg){
             _vv.errorTips(errMsg);
         });
     },
     // 加载分页信息
-    // loadPagination : function(pageInfo){
-    //     var _this = this;
-    //     this.pagination ? '' : (this.pagination = new Pagination());
-    //     this.pagination.render($.extend({}, pageInfo, {
-    //         container : $('.pagination'),
-    //         onSelectPage : function(pageNum){
-    //             _this.data.listParam.pageNum = pageNum;
-    //             _this.loadList();
-    //         }
-    //     }));
-    // }
+    loadPagination : function(pageInfo){
+        var _this = this;
+        this.pagination ? '' : (this.pagination = new Pagination());
+        this.pagination.render($.extend({}, pageInfo, {
+            container : $('.pagination'),
+            onSelectPage : function(pageNum){
+                _this.data.listParam.pageNum = pageNum;
+                _this.loadList();
+            }
+        }));
+    }
 };
 $(function(){
     page.init();
