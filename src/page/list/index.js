@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:21:25
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-10 10:34:37
+* @Last Modified time: 2020-05-10 10:46:37
 */
 
 'use strict';
@@ -80,7 +80,7 @@ var page = {
         // 请求接口
         _film.getFilmList(listParam, function(res){
             listHtml = _vv.renderHtml(templateIndex, {
-                list :  res.list
+                list :  res.rows
             });
             $pListCon.html(listHtml);
             // _this.loadPagination({
