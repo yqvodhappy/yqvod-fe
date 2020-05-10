@@ -2,13 +2,15 @@
 * @Author: Dtvikey
 * @Date:   2019-10-30 22:01:15
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-08 09:13:11
+* @Last Modified time: 2020-05-10 10:51:55
 */
 
 'use strict';
 var Hogan = require('hogan.js');
 var conf = {
-    serverHost : 'http://api.yqrb.com.cn:8088/flutter-yqvod-dev-api'
+    //serverHost : 'http://api.yqrb.com.cn:8088/flutter-yqvod-dev-api'
+    serverHost : 'http://localhost:8080/'
+
 };
 
 var _vv = {
