@@ -2,7 +2,7 @@
 * @Author: Dtvikey
 * @Date:   2019-11-09 09:21:25
 * @Last Modified by:   Dtvikey
-* @Last Modified time: 2020-05-10 10:00:44
+* @Last Modified time: 2020-05-10 10:05:09
 */
 
 'use strict';
@@ -73,7 +73,7 @@ var page = {
             listHtml    = '',
             listParam   = this.data.listParam,
             $pListCon   = $('.p-list-con');
-        $pListCon.html('<div class="loading"></div>');
+        $pListCon.html('999');
         // 删除参数中不必要的字段
         listParam.categoryId 
             ? (delete listParam.keyword) : (delete listParam.categoryId);
